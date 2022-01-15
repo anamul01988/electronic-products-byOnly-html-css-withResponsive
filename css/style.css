@@ -1,0 +1,202 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;700&display=swap');
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    margin: 60px;
+    /* font-family: 'Roboto', sans-serif;  */
+    font-family: 'Poppins', sans-serif;
+}
+h1, h2, h3, h4, h5{
+    font-family: 'Roboto', sans-serif;  
+}
+.section-padding{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+button{
+    padding: 13px 35px;
+    border: 2px solid black;
+    /* background-color: #e02c6d;  */
+    background: #000;
+    border-radius: 30px;
+    transition:.4 ease-in-out;
+    cursor: pointer;
+    color: rgb(244, 248, 11);
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+button:hover{
+    background-color: rgb(43, 199, 69);
+    color: #000;
+}
+/*======== header part start 01  ========*/
+.header-area{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-logo h3{
+    font-weight: 700;
+    letter-spacing: .5px;
+    font-size: 24px;
+}
+.nav ul{
+    display: flex;
+}
+.nav ul li{
+    margin-right: 30px;
+    list-style: none;
+
+}
+.nav li a{
+    text-decoration: none;
+    color: #000;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+/*======== header part end 01 ========*/
+
+/* ======== journey part start 02 ======== */
+.journey-portion{
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.journey-content{
+    margin-right: 10px;
+}
+.journey-content h1{
+    color: #3A3A3A;
+    text-transform: capitalize;
+    font-size: 34px;
+    line-height: 60px;
+    
+}
+.journey-content p{
+    color: #000;
+    text-transform: lowercase;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 10px 0 30px 0;
+    
+}
+/* .journey-content a button i{
+    margin-top: 4px;
+
+} */
+.journey-images{
+    background:rgb(244, 248, 11);
+    border: 2px solid black;
+    border-radius: 50%;
+    /* height: 100%;
+    width: 100%; */
+}
+
+/* ======== journey part end  02 ======== */
+/* ======== brand section start 03 ======== */
+.brand{
+    margin-top: 40px;
+}
+.brand hr{
+    width: 100%;
+    border: 1px solid #a1a1a1;
+}
+.brand-portion{
+    display: flex;
+    justify-content: space-evenly;
+}
+.brand-portion img{
+    padding: 20px 0;
+}
+/* ======== brand section end 03 ======== */
+/* ======== popular collection start 04 */
+.popular-collection-portion h2{
+    font-size: 24px;
+     text-transform: capitalize;
+     text-align: center;
+     margin-bottom: 30px;
+}
+.popular-collection{
+  
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-gap: 20px;
+ 
+}
+.popular-product{
+    /* display:flex; */
+    border-radius: 15px; 
+    padding: 20px;
+    background-color: #faf6f6; 
+    -webkit-box-shadow: 0px 1px 6px 4px rgba(0,0,0,0.35); 
+    box-shadow: 0px 1px 6px 4px rgba(0,0,0,0.35);
+ 
+
+}
+.popular-product img{
+   width: 100%;
+   /* height: 100%; */
+}
+.product-content h3, h4{
+    text-transform: capitalize;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.review-ratings{
+    margin-bottom: 15px;
+     color: orange;
+}
+.ratingClass{
+    margin-left: 20px;
+    color: #000;
+}
+.review-ratings .right span{
+    position:relative;
+    left: -80px;
+}
+.product-content p{
+   font-size: 15px;
+   text-transform: capitalize;
+   line-height: 25px;
+}
+.product-content p{
+    font-size: 15px;
+    text-transform: capitalize;
+    line-height: 25px;
+ }
+ /* .product-content p:nth-child(2){
+     color: orange!important;
+ } */
+ .second{
+     color: orange;
+ }
+ .more-collection{
+     margin-top: 40px;
+     float: right;
+ }
+ .more-collection a button{
+     background: transparent;
+     border: none;
+     color: #E02C6D;
+     letter-spacing: 0;
+     text-transform: capitalize;
+ }
+
+/* ======== popular collection start 04 */
+
+
+
+
+/* ======== popular collection start 04 */
+
+/* ======== popular collection start 04 */
