@@ -200,3 +200,31 @@ button:hover{
 /* ======== popular collection start 04 */
 
 /* ======== popular collection start 04 */
+/* ======== footer start 04 */
+.footer-portion{
+    text-align:center;
+    padding: 50px 0;
+    background: #041E42;
+    color: white;
+}
+.footer-portion h3{
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+}
+.footer-portion p{
+    text-transform: lowercase;
+    font-size: 15px;
+    line-height: 26px;
+    color: #fdf3f3;
+    letter-spacing: 1px;
+}
+.icons i{
+   margin-right: 10px;
+   color: orange;
+   font-size: 18px;
+   margin-top: 10px;
+}
+
+/* ======== footer end  04 */
