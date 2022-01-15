@@ -36,6 +36,11 @@ button:hover{
     color: #000;
 }
 /*======== header part start 01  ========*/
+.header-portion{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+}
 .header-area{
     display:flex;
     justify-content: space-between;
@@ -64,8 +69,14 @@ button:hover{
 /*======== header part end 01 ========*/
 
 /* ======== journey part start 02 ======== */
+.journey-area{
+     display: grid;
+     grid-template-columns: repeat(1,1fr);
+     grid-template-rows: repeat(1,1fr);
+     grid-gap: 20px;
+    }
 .journey-portion{
-    height: 400px;
+    /* height: 400px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -88,22 +99,19 @@ button:hover{
     margin: 10px 0 30px 0;
     
 }
-/* .journey-content a button i{
-    margin-top: 4px;
 
-} */
 .journey-images{
     background:rgb(244, 248, 11);
     border: 2px solid black;
     border-radius: 50%;
-    /* height: 100%;
-    width: 100%; */
 }
 
 /* ======== journey part end  02 ======== */
 /* ======== brand section start 03 ======== */
 .brand{
     margin-top: 40px;
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
 }
 .brand hr{
     width: 100%;
@@ -202,6 +210,7 @@ button:hover{
 /* ======== popular collection start 04 */
 /* ======== footer start 04 */
 .footer-portion{
+    height: 150px;
     text-align:center;
     padding: 50px 0;
     background: #041E42;
@@ -228,3 +237,101 @@ button:hover{
 }
 
 /* ======== footer end  04 */
+/* ======== responsive start  */
+@media(max-width:992px){
+
+    .header-area .nav{
+        display: none;
+    }
+    .header-logo{
+        width: 100%;
+        text-align: center;
+    }
+    .popular-collection{
+        display:grid;
+        grid-gap: 30px;
+        place-items: center;
+        grid-template-columns: repeat(2,1fr)
+    }
+    .journey-images img{
+        height: 100%;
+        width: 100%;
+   
+}
+@media only screen and (max-width:892px) {
+    .journey-content h1{
+       font-size: 20px;
+       line-height: 30px;
+    }
+    .journey-content p{
+        font-size: 15px;
+        line-height: 30px;
+     }
+     /* .journey-images img{
+          height: 100%;
+          width: 100%;
+
+     } */
+     .brand-portion img{
+        height: 60px;
+        width: 60px;
+     }
+     /* .brand-area{
+         display: grid;
+         grid-template-columns: repeat(1,1fr);
+         grid-template-rows: repeat(2,1fr);
+        grid-gap: 30px;  
+   }
+   .brand-portion img{
+           display: flex;
+           justify-content: center;
+
+
+   } */
+   /* .footer-portion{
+       padding-bottom: 50px!important;
+   }
+   .icons{
+       padding-bottom: 50px;
+       margin-bottom: 50px;
+   } */
+}
+/* @media only (min-width:340px) screen  and (max-width:992px){
+
+} */
+@media only screen  and (max-width:600px){
+
+    .journey-portion{
+        display:block;
+        text-align:center;
+    }
+    .journey-content{
+        margin-bottom: 30px;
+    }
+    .journey-images{
+       margin-top:50px;
+    }
+    .brand{
+        display: none;
+    }
+
+    .popular-collection{
+        display:grid;
+        grid-gap: 30px;
+        place-items: center;
+        grid-template-columns: repeat(1,1fr)
+    }
+    .journey-content{
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+        /* grid-template-rows: repeat(2,1fr); */
+        grid-gap: 30px;
+    }
+    .journey-content h1{
+        line-height: 0;
+        display: inline-block;
+        margin:0;
+        font-size: 30px;
+    }
+}
+/* ======== responsive end  */
